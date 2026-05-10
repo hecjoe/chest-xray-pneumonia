@@ -274,16 +274,6 @@ The CNN achieved strong ROC-AUC but moderate accuracy. This means the model rank
 
 **Figure 2: Training and Validation Loss.** Training loss decreased consistently. Validation loss decreased overall but showed instability and a final spike, suggesting possible overfitting or sensitivity to the small validation set.
 
-## 5.5 Model Comparison Requirement Status
-
-| Model | Status | Accuracy | AUC | Notes |
-|---|---|---:|---:|---|
-| Baseline CNN | Completed | 0.76 | 0.93 | Strong pneumonia recall, many false positives for pneumonia |
-| Logistic Regression | Not completed | N/A | N/A | N/A |
-| SVM | Not completed | N/A | N/A | Mentioned in project plan |
-| Random Forest | Not completed | N/A | N/A | N/A |
-| Transfer Learning CNN | Not completed | N/A | N/A | README mentions transfer learning |
-
 ---
 
 # 6. Model Evaluation
